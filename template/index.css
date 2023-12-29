@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;300;400;500;700;900&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+    overflow-x:hidden;
+
+}
+
+body{
+    background-color: #0b0b0b;
+    font-family: "Outfit", sans-serif;
+}
+
+::-webkit-scrollbar{
+    background-color: #0b0b0b;
+    width: 0.3rem;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #967bb6;
+}
+
+ul{
+    list-style-type:none;
+}
+
+:root{
+    --gradient:linear-gradient(to right,#967bb6, #793f8e);
+}
+
+button {
+    color: white;
+    padding: 1rem 1.0rem;
+    text-transform: uppercase;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap:1rem;
+    -webkit-box-align:center;
+    -ms-flex-align: center;
+    align-items: center;
+    border: solid 4px transparent;
+    cursor:pointer;
+    background-image: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,0)), linear-gradient(to right , #967bb6, #793f8e);
+    background-origin: border-box;
+    backfround-clip:content-box, border-box;
+    -webkit-box-shadow: 2px 1000px 1px #0b0b0b inset;
+}
+
+.title__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 6rem;
+    text-align: center;
+}
